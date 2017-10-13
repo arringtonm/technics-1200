@@ -17,7 +17,6 @@ button {
 }
 button:active {
   background-color: rgba(0,0,0,0.1);
-  /*transition: ease 0.5s;*/
 }
 h1 {
   font-family: sans-serif;
@@ -29,7 +28,6 @@ h1 {
 }
 input:focus + label {
   opacity: 1;
-  /*transform: translate(6px, -47px);*/
   transition: ease 1s;
 }
 label {
@@ -52,7 +50,6 @@ label {
 .thumbnail-holder {
   float: left;
   height: 30%;
-  /*margin: 10px;*/
   border: 1px solid grey;
   border-radius: 2px;
   margin-bottom: 13.3%;
@@ -114,6 +111,12 @@ label {
   width: 33%;
   float: left;
 }
+.thank-you {
+  display: none;
+  text-align: center;
+  color: grey;
+}
+
 #submit-name,#submit-email   {
   width: 100%;
 }
