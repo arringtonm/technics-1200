@@ -40,13 +40,36 @@ label {
   margin: 0px;
   transform: translate(6px, -25px);
 }
+.gallery {
+  top: 135px;
+  position: absolute;
+  margin-left: 65.25%;
+  height: 400px;
+  width: 150px;
+  overflow: none;
+}
+
+.thumbnail-holder {
+  float: left;
+  height: 30%;
+  /*margin: 10px;*/
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin-bottom: 13.3%;
+}
+.thumbnail {
+  height: 100%;
+}
+
 .main-image {
-  width: 700px;
+  /*width: 700px;*/
+  height: 400px;
   margin-left: 50%;
   margin-right: 50%;
-  transform: translate(-50%, 15%);
+  transform: translate(-67%, 15%);
   position: absolute;
-  /*border: 1px solid grey;*/
+  border: 1px solid grey;
+  border-radius: 2px;
 }
 .form-box {
   top: 600px;
