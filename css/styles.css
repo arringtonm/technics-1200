@@ -16,6 +16,10 @@ button {
   height: 100%;
   /*box-shadow: 2px 2px 5px lightgrey;*/
 }
+button:hover {
+  background-color: rgba(0,0,0,0.7);
+  transition: 1s;
+}
 button:active {
   background-color: rgba(0,0,0,0.1);
 }
@@ -25,9 +29,12 @@ h1 {
   font-family: sans-serif;
   font-weight: lighter;
   font-size: 30px;
-  color: grey;
+  color: rgba(0,0,0,0.9);
   text-align: center;
   padding-bottom: none;
+}
+h1::first-letter {
+  font-size: 34px;
 }
 h3 {
   padding: none;
@@ -49,16 +56,21 @@ input:focus + label {
   opacity: 1;
   transition: ease 1s;
 }
+p {
+
+  text-align: left;
+  font-size: lighter;
+}
 label {
   position: absolute;
   opacity: 0.4;
   color: grey;
-  font-size: 8px;
+  font-size: 10px;
   margin: 0px;
-  transform: translate(0px, -35px);
+  transform: translate(1px, -39px);
 }
 li {
-  color: grey;
+  color: rgba(0,0,0,0.9);
 }
 .gallery {
   top: 165px;
@@ -68,7 +80,6 @@ li {
   width: 150px;
   overflow: none;
 }
-
 .thumbnail-holder {
   float: left;
   height: 30%;
@@ -84,7 +95,6 @@ li {
   opacity: 1;
   transition: all 0.7s;
 }
-
 .main-image {
   top: 165px;
   height: 400px;
@@ -98,13 +108,11 @@ li {
 .spec-contact-box {
   position: relative;
   top: 500px;
-  /*margin-left: auto;
-  margin-right: auto;*/
   margin-left: 50%;
   margin-right: 50%;
   transform: translateX(-50%);
   width: 800px;
-  height: 100px;
+  height: 80px;
 }
 .spec-box, .form-box {
   float: left;
@@ -112,13 +120,8 @@ li {
 }
 .form-box {
   padding: 20px;
+  float: right;
 }
-/*.form-box {
-  border: 1px solid grey;
-  padding: 20px;
-  border-radius: 3px;
-}*/
-
 .row {
   display: inline;
   float: left;
@@ -144,7 +147,6 @@ li {
   text-align: center;
   color: grey;
 }
-
 #submit-name,#submit-email   {
   width: 100%;
 }
